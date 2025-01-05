@@ -9,7 +9,7 @@
   <title>AcadAmy, aprende inglés desde casa</title>
 </head>
 <body>
-  <div id="header" class="sticky-top";></div>
+  <div id="header"></div>
   
     <main>
       <div id="welcome"  style="background-image: url(imgs/fondoportada1.png); background-position: center; background-size: cover; width: 100%; min-height: 800px;">
@@ -190,6 +190,15 @@
         </div>
       </div>
     </main>
+  
+
+    <form action="enviar.php" method="POST">
+      <input type="text" name="nombre" placeholder="Nombre">
+      <input type="email" name="email" placeholder="Email">
+      <textarea name="mensaje" placeholder="Mensaje"></textarea>
+      <button type="submit">Enviar</button>
+  </form>
+
   
   <div id="footer"></div>
 

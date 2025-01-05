@@ -1,0 +1,11 @@
+@media (max-width: 576px) {
+  .dropdown-item::before {
+    transform: rotate(-90deg);
+  }
+}
+
+
+
+:root{
+  --bs-boody-font-family: cursive, sans-serif;
+}
